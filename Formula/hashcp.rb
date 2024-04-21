@@ -3,7 +3,7 @@ class Hashcp < Formula
   desc "copy files in directory, and rename the files hash value."
   homepage "https://github.com/oor30/homebrew-hashcp"
   url "https://github.com/oor30/hashFilename/releases/download/1.0/hashcp-0.1.0.tar.gz"
-  sha256 "f3dd323fb13ee2a2362d965fa965d849f70a187047ce36c7824c8c0af6d8eda7"
+  sha256 "f18f9eb7e8a4a90281811f7b292ce3959b772af1219ea7e975e16e908a387244"
   license ""
 
   depends_on "python@3.12"
