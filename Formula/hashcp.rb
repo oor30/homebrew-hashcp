@@ -5,7 +5,7 @@ class Hashcp < Formula
   include Language::Python::Virtualenv
   desc ""
   homepage ""
-  url "https://github.com/oor30/hashFilename/releases/download/1.0/hashcp-v1.0.tar.gz"
+  url "https://github.com/oor30/hashFilename/releases/download/1.0/hashcp_package-0.1.0.tar.gz"
   sha256 "1a26875b47a35ce3cf95d68c994e0130a7305ba2d09a30159198b8e86f3f05a2"
   license ""
 
