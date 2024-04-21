@@ -14,7 +14,7 @@ class Hashcp < Formula
   end
 
   def install
-    # bin.install 'hashcp'
     virtualenv_install_with_resources
+    bin.install 'hashcp'
   end
 end
