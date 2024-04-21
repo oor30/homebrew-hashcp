@@ -9,6 +9,7 @@ class Hashcp < Formula
   license ""
 
   # depends_on "cmake" => :build
+  depends_on "python"
 
   def install
     bin.install 'hashcp'
