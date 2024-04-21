@@ -2,6 +2,7 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Hashcp < Formula
+  include Language::Python::Virtualenv
   desc ""
   homepage ""
   url "https://github.com/oor30/hashFilename/releases/download/1.0/hashcp-v1.0.tar.gz"
@@ -12,6 +13,7 @@ class Hashcp < Formula
   depends_on "python@3.12"
 
   def install
-    bin.install 'hashcp'
+    # bin.install 'hashcp'
+    virtualenv_install_with_resources
   end
 end
