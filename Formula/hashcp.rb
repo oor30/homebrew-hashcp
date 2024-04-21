@@ -11,6 +11,11 @@ class Hashcp < Formula
 
   # depends_on "cmake" => :build
   depends_on "python@3.12"
+  
+  resource "natsort" do
+    url "https://files.pythonhosted.org/packages/e2/a9/a0c57aee75f77794adaf35322f8b6404cbd0f89ad45c87197a937764b7d0/natsort-8.4.0.tar.gz"
+    sha256 "45312c4a0e5507593da193dedd04abb1469253b601ecaf63445ad80f0a1ea581"
+  end
 
   def install
     # bin.install 'hashcp'
