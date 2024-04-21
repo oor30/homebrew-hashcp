@@ -9,7 +9,7 @@ class Hashcp < Formula
   license ""
 
   # depends_on "cmake" => :build
-  depends_on "python"
+  depends_on "python" => "with-tcl-tk"
 
   def install
     bin.install 'hashcp'
