@@ -1,15 +1,11 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Hashcp < Formula
   include Language::Python::Virtualenv
-  desc ""
-  homepage ""
+  desc "copy files in directory, and rename the files hash value."
+  homepage "https://github.com/oor30/homebrew-hashcp"
   url "https://github.com/oor30/hashFilename/releases/download/1.0/hashcp_package-0.1.0.tar.gz"
   sha256 "f3dd323fb13ee2a2362d965fa965d849f70a187047ce36c7824c8c0af6d8eda7"
   license ""
 
-  # depends_on "cmake" => :build
   depends_on "python@3.12"
   
   resource "natsort" do
